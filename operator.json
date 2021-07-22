@@ -1,6 +1,6 @@
 {
   "name": "Sum",
-  "description": "Compute the sum per cell",
+  "description": "Calculates the addition of value X to value Y.",
   "tags": ["simple arithmetic"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/sum_operator"],
