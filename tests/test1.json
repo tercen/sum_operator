@@ -8,6 +8,5 @@
   "rows": ["Variable"],
   "colors": [],
   "labels": [],
-  "yAxis": "y_values",
-  "xAxis":  []
+  "yAxis": "y_values"
 }
