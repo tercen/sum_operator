@@ -1,9 +1,9 @@
 {
   "kind": "OperatorUnitTest",
-  "name": "test",
+  "name": "test1",
   "namespace": "ds0",
-  "inputDataUri": "test_in.csv",
-  "outputDataUri": ["test_out_1.csv", "test_out_2.csv"],
+  "inputDataUri": "test1_in.csv",
+  "outputDataUri": ["test1_out_1.csv", "test1_out_2.csv"],
   "columns": [],
   "rows": ["Variable"],
   "colors": [],
@@ -11,6 +11,6 @@
   "yAxis": "y_values",
   "xAxis": "",
   "propertyValues": {},
-  "generatedOn": "06/21/2022 09:31:56 AM 2022",
+  "generatedOn": "06/21/2022 09:50:06 AM 2022",
   "version": ""
 }
