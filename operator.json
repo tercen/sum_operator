@@ -10,5 +10,55 @@
   "urls": [
     "https://github.com/tercen/sum_operator"
   ],
-  "properties": []
+  "properties": [],
+  "operatorSpec": {
+    "kind": "OperatorSpec",
+    "ontologyUri": "https://tercen.com/_ontology/tercen",
+    "ontologyVersion": "1.0.0",
+    "inputSpecs": [
+      {
+        "kind": "CrosstabSpec",
+        "metaFactors": [
+          {
+            "kind": "MetaFactor",
+            "name": "Row",
+            "type": "",
+            "description": "Row dimension factors",
+            "ontologyMapping": "variable",
+            "crosstabMapping": "row",
+            "cardinality": "0..n",
+            "factors": []
+          },
+          {
+            "kind": "MetaFactor",
+            "name": "Column",
+            "type": "",
+            "description": "Column dimension factors",
+            "ontologyMapping": "observation",
+            "crosstabMapping": "column",
+            "cardinality": "0..n",
+            "factors": []
+          }
+        ],
+        "axis": [
+          {
+            "kind": "AxisSpec",
+            "metaFactors": [
+              {
+                "kind": "MetaFactor",
+                "name": "Y-Axis",
+                "type": "numeric",
+                "description": "Values to sum",
+                "ontologyMapping": "measurement",
+                "crosstabMapping": "y",
+                "cardinality": "1..n",
+                "factors": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputSpecsV2": []
+  }
 }
