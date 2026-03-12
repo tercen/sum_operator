@@ -47,7 +47,7 @@
               {
                 "kind": "MetaFactor",
                 "name": "Y-Axis",
-                "type": "numeric",
+                "type": "double",
                 "description": "Values to sum",
                 "ontologyMapping": "measurement",
                 "crosstabMapping": "y",
